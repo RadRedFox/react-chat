@@ -1,0 +1,11 @@
+@import '../1-settings/variables';
+
+.a-input {
+	margin: 0 0 1.5em 0;
+	padding: 0.5em 1em 0.5em 0;
+	border: none;
+	border-bottom: 2px solid $charcoal;
+	background: transparent;
+	font-size: 0.9em;
+	outline: none;
+}

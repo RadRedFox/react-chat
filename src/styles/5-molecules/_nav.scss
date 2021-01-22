@@ -1,0 +1,22 @@
+.m-nav {
+	display: flex;
+	align-items: center;
+
+	&--item {
+		margin: 0 0.5em;
+
+		&:first-child {
+			margin-left: 0;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	@media screen and (min-width: 480px) {
+		&--item {
+			margin: 0 1.25em;
+		}
+	}
+}

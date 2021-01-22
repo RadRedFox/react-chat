@@ -1,0 +1,22 @@
+:root {
+	--charcoal: hsla(197, 37%, 24%, 1);
+	--persian-green: hsla(173, 58%, 39%, 1);
+	--orange-yellow-crayola: hsla(43, 74%, 66%, 1);
+	--sandy-brown: hsla(27, 87%, 67%, 1);
+	--burnt-sienna: hsla(12, 76%, 61%, 1);
+
+	--black: hsla(0, 0%, 13%, 1);
+	--white: hsla(0, 0%, 96%, 1);
+
+	font-size: 16px;
+}
+
+$black: var(--black);
+$white: var(--white);
+$charcoal: var(--charcoal);
+$persian-green: var(--persian-green);
+$orange-yellow-crayola: var(--orange-yellow-crayola);
+$sandy-brown: var(--sandy-brown);
+$burnt-sienna: var(--burnt-sienna);
+
+$root-font-size: 16px;

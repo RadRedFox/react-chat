@@ -1,0 +1,62 @@
+@import '../1-settings/variables';
+
+.a-button {
+	position: relative;
+	padding: 0.5em 1em;
+	border: none;
+	border-radius: 0.25em;
+	background: $white;
+	text-decoration: none;
+	color: $charcoal;
+	outline: none;
+	cursor: pointer;
+
+	&--icon-wrapper {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 0.25em;
+		height: 100%;
+		width: 2em;
+		border-top-left-radius: 0.25em;
+		border-bottom-left-radius: 0.25em;
+		border: 2px solid $persian-green;
+		background: $white;
+	}
+
+	&--text {
+		margin-left: 1.25em;
+	}
+
+	&.-primary {
+		background: $persian-green;
+		color: $white;
+	}
+
+	&.-secondary {
+		background: $orange-yellow-crayola;
+		color: $white;
+	}
+
+	&.-ghost {
+		background: transparent;
+		color: $charcoal;
+		border: 1px solid $charcoal;
+	}
+
+	&.-primary.-ghost {
+		border-color: $persian-green;
+	}
+
+	&.secondary.-ghost {
+		border-color: $orange-yellow-crayola;
+	}
+
+	&.-center {
+		margin: 0 auto;
+	}
+
+	&.-medium {
+		min-width: 10em;
+	}
+}

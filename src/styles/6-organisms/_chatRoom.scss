@@ -1,0 +1,17 @@
+.o-chat-room {
+	display: grid;
+	grid-template-rows: 1fr auto;
+
+	&--chat-log {
+		display: flex;
+		flex-direction: column;
+		overflow: auto;
+	}
+
+	&--form {
+		padding: 0.5em;
+		width: 100%;
+		height: 2.5em;
+		box-shadow: 0 -15px 20px -15px hsla(197, 37%, 24%, 0.4);
+	}
+}

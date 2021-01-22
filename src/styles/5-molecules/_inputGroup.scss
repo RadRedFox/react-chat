@@ -1,0 +1,13 @@
+.m-input-group {
+	display: flex;
+	justify-content: flex-start;
+
+	&--input {
+		margin-bottom: 0;
+		width: 100%;
+	}
+
+	&--input + &--button {
+		border-bottom-left-radius: 0;
+	}
+}
